@@ -1,0 +1,26 @@
+<h1 mat-dialog-title>Create Relocation Request </h1>
+<div mat-dialog-content>
+  <h2>Employee Details</h2>
+  <p>name: <span class="fw-bold">{{data.name}}</span></p>
+  <p>department: <span class="fw-bold">{{data.department}}</span></p>
+  <mat-form-field>
+    <mat-label>Department</mat-label>
+    <mat-select [formControl]="deparment">
+      <mat-option *ngFor="let dept of (departments | filterDepartment:data.department) " [value]="dept">
+        {{dept.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <p class="desc"><span class="fw-bold">{{deparment.value.name}} description:</span> {{ deparment.value.description}}</p>
+  <mat-form-field class="text-area" >
+    <mat-label>Additonal Info</mat-label>
+    <textarea matInput
+              cdkTextareaAutosize
+              cdkAutosizeMinRows="1"
+              cdkAutosizeMaxRows="5"></textarea>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions class="justify-content-end">
+  <button mat-flat-button>Close</button>
+  <button  class="btn btn-danger mx-3" >Submit</button>
+</div>

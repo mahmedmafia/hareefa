@@ -1,0 +1,52 @@
+[
+  {
+    "id": 101,
+    "name": "Sales",
+    "description": "Responsible for selling products or services and managing client relationships."
+  },
+  {
+    "id": 102,
+    "name": "Marketing",
+    "description": "Focuses on promoting and advertising products or services to attract and retain customers."
+  },
+  {
+    "id": 103,
+    "name": "Finance",
+    "description": "Manages financial resources, budgeting, and financial planning for the organization."
+  },
+  {
+    "id": 104,
+    "name": "Human Resources",
+    "description": "Deals with employee recruitment, training, benefits, and overall personnel management."
+  },
+  {
+    "id": 105,
+    "name": "IT",
+    "description": "Handles technology infrastructure, software development, and IT support for the organization."
+  },
+  {
+    "id": 106,
+    "name": "Operations",
+    "description": "Manages day-to-day business operations, ensuring efficiency and smooth workflows."
+  },
+  {
+    "id": 107,
+    "name": "Customer Service",
+    "description": "Provides assistance and support to customers, addressing inquiries and resolving issues."
+  },
+  {
+    "id": 108,
+    "name": "Research and Development",
+    "description": "Focuses on creating and improving products, services, and processes through research and innovation."
+  },
+  {
+    "id": 109,
+    "name": "Legal",
+    "description": "Deals with legal matters, compliance, contracts, and ensures the organization operates within the law."
+  },
+  {
+    "id": 110,
+    "name": "Administration",
+    "description": "Handles administrative tasks, office management, and coordination of various functions within the organization."
+  }
+]
